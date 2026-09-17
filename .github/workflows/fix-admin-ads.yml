@@ -61,3 +61,5 @@ EOF
           fi
           git commit -m "Fix MangaGoAtlas admin and disable ads"
           git push
+
+# Trigger fix workflow after installation
