@@ -54,3 +54,5 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "Extract non-image MangaGoAtlas site files"
           git push
+
+# Re-run trigger: 2026-09-17
