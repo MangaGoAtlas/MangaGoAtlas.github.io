@@ -1,6 +1,9 @@
 name: Fix MangaGoAtlas Admin and Ads
 
 on:
+  push:
+    paths:
+      - '.github/workflows/fix-admin-ads.yml'
   workflow_dispatch:
 
 permissions:
@@ -61,5 +64,3 @@ EOF
           fi
           git commit -m "Fix MangaGoAtlas admin and disable ads"
           git push
-
-# Trigger fix workflow after installation
