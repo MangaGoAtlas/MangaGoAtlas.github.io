@@ -1,0 +1,38 @@
+name: Unpack MangaGoAtlas source
+
+on:
+  push:
+    paths:
+      - 'Mangareader-final.zip'
+      - '.github/workflows/unpack-mangareader.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Unpack source ZIP
+        run: |
+          rm -rf _site_extract
+          mkdir -p _site_extract
+          unzip -q Mangareader-final.zip -d _site_extract
+          ROOT="_site_extract/Mangareader"
+          if [ ! -d "$ROOT" ]; then ROOT="_site_extract"; fi
+          find "$ROOT" -mindepth 1 -maxdepth 1 -exec cp -a {} . \;
+          rm -rf _site_extract
+          rm -f Mangareader-final.zip hi
+
+      - name: Commit extracted site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m "Unpack MangaGoAtlas site source"
+          git push
