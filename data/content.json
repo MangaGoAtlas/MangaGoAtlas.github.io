@@ -59,6 +59,26 @@
       "cover": "https://raw.githubusercontent.com/MangaGoAtlas/MangaGoAtlas.github.io/main/manga-covers/blue-lock/1789719721165-________raw___Blue_Lock_Raw__.jpg",
       "slug": "blue-lock",
       "updated_at": "2026-09-18T08:22:01.164Z"
+    },
+    {
+      "id": "boruto-two-blue-vortex",
+      "title": "Boruto: Two Blue Vortex",
+      "native_title": "ボルト",
+      "country": "JP",
+      "language": "ja",
+      "cover": "",
+      "slug": "boruto-two-blue-vortex",
+      "updated_at": "2026-09-18T16:00:00.000Z"
+    },
+    {
+      "id": "adult-war",
+      "title": "大人大戦",
+      "native_title": "大人大戦",
+      "country": "JP",
+      "language": "ja",
+      "cover": "",
+      "slug": "otona-taisen",
+      "updated_at": "2026-09-18T16:00:00.000Z"
     }
   ],
   "chapters": []
