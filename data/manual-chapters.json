@@ -65,6 +65,28 @@
       ],
       "createdAt": "2026-09-17T15:15:43.948Z",
       "updatedAt": "2026-09-17T17:48:47.325Z"
+    },
+    {
+      "id": "manual-1789719524544-254",
+      "mangaId": "mokushiroku-no-yonkishi",
+      "number": 254,
+      "title": "黙示録の四騎士 Raw ( THE FOUR KNIGHTS OF THE APOCALYPSE raw ) 第254話",
+      "slug": "mokushiroku-no-yonkishi-raw-254",
+      "country": "JP",
+      "pages": [],
+      "createdAt": "2026-09-18T08:18:44.544Z",
+      "updatedAt": "2026-09-18T08:18:44.544Z"
+    },
+    {
+      "id": "manual-1789719524544-362",
+      "mangaId": "blue-lock",
+      "number": 362,
+      "title": "ブルーロック raw ( Blue Lock raw ) 第362話",
+      "slug": "blue-lock-raw-362",
+      "country": "JP",
+      "pages": [],
+      "createdAt": "2026-09-18T08:18:44.544Z",
+      "updatedAt": "2026-09-18T08:18:44.544Z"
     }
   ]
 }
