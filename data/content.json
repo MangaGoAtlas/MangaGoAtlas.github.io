@@ -39,6 +39,26 @@
       "cover": "https://raw.githubusercontent.com/MangaAtlas/MangaAtlas.github.io/main/manga-covers/boku-to-roboko/1789579519967-71X9QX_xG5L._UF1000_1000_QL80_.jpg",
       "slug": "boku-to-roboko",
       "updated_at": "2026-09-16T17:25:19.965Z"
+    },
+    {
+      "id": "mokushiroku-no-yonkishi",
+      "title": "THE FOUR KNIGHTS OF THE APOCALYPSE",
+      "native_title": "黙示録の四騎士",
+      "country": "JP",
+      "language": "ja",
+      "cover": "",
+      "slug": "mokushiroku-no-yonkishi",
+      "updated_at": "2026-09-18T08:18:44.544Z"
+    },
+    {
+      "id": "blue-lock",
+      "title": "Blue Lock",
+      "native_title": "ブルーロック",
+      "country": "JP",
+      "language": "ja",
+      "cover": "",
+      "slug": "blue-lock",
+      "updated_at": "2026-09-18T08:18:44.544Z"
     }
   ],
   "chapters": []
