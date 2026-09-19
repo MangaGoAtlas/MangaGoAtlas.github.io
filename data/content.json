@@ -79,6 +79,66 @@
       "cover": "https://raw.githubusercontent.com/MangaGoAtlas/MangaGoAtlas.github.io/main/manga-covers/otona-taisen/1789750573716-61AdhOYWu4L.jpg",
       "slug": "otona-taisen",
       "updated_at": "2026-09-18T16:56:13.716Z"
+    },
+    {
+      "id": "someone-hertz",
+      "title": "Someone Hertz",
+      "native_title": "さむわんへるつ",
+      "country": "JP",
+      "language": "ja",
+      "cover": "",
+      "slug": "someone-hertz",
+      "updated_at": "2026-09-19T13:17:00.000Z"
+    },
+    {
+      "id": "shinobi-undercover",
+      "title": "Shinobi Undercover",
+      "native_title": "しのびごと",
+      "country": "JP",
+      "language": "ja",
+      "cover": "",
+      "slug": "shinobi-undercover",
+      "updated_at": "2026-09-19T13:17:00.000Z"
+    },
+    {
+      "id": "ichi-the-witch",
+      "title": "Ichi the Witch",
+      "native_title": "魔男のイチ",
+      "country": "JP",
+      "language": "ja",
+      "cover": "",
+      "slug": "ichi-the-witch",
+      "updated_at": "2026-09-19T13:17:00.000Z"
+    },
+    {
+      "id": "akane-banashi",
+      "title": "Akane-banashi",
+      "native_title": "あかね噺",
+      "country": "JP",
+      "language": "ja",
+      "cover": "",
+      "slug": "akane-banashi",
+      "updated_at": "2026-09-19T13:17:00.000Z"
+    },
+    {
+      "id": "roku-house-of-oddities",
+      "title": "Roku's House of Oddities",
+      "native_title": "ロクのおかしな家",
+      "country": "JP",
+      "language": "ja",
+      "cover": "",
+      "slug": "roku-house-of-oddities",
+      "updated_at": "2026-09-19T13:17:00.000Z"
+    },
+    {
+      "id": "gray-keith-no-makai-goyakuroku",
+      "title": "Gray Keith no Makai Goyakuroku",
+      "native_title": "グレイキースの魔界語訳録",
+      "country": "JP",
+      "language": "ja",
+      "cover": "",
+      "slug": "gray-keith-no-makai-goyakuroku",
+      "updated_at": "2026-09-19T13:17:00.000Z"
     }
   ],
   "chapters": []
