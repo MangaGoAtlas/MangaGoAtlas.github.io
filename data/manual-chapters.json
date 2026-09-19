@@ -204,6 +204,72 @@
       ],
       "createdAt": "2026-09-18T17:51:34.343Z",
       "updatedAt": "2026-09-18T17:53:23.510Z"
+    },
+    {
+      "id": "manual-1789805881799-50-someone-hertz",
+      "mangaId": "someone-hertz",
+      "number": 50,
+      "title": "さむわんへるつ raw ( Someone Hertz raw ) 第50話",
+      "slug": "someone-hertz-raw-50",
+      "country": "JP",
+      "pages": [],
+      "createdAt": "2026-09-19T13:17:00.000Z",
+      "updatedAt": "2026-09-19T13:17:00.000Z"
+    },
+    {
+      "id": "manual-1789805881799-98-shinobi-undercover",
+      "mangaId": "shinobi-undercover",
+      "number": 98,
+      "title": "しのびごとraw ( Shinobi Undercover raw ) 第98話",
+      "slug": "shinobi-undercover-raw-98",
+      "country": "JP",
+      "pages": [],
+      "createdAt": "2026-09-19T13:17:00.000Z",
+      "updatedAt": "2026-09-19T13:17:00.000Z"
+    },
+    {
+      "id": "manual-1789805881799-99-ichi-the-witch",
+      "mangaId": "ichi-the-witch",
+      "number": 99,
+      "title": "魔男のイチ raw ( Ichi the Witch raw ) 第99話",
+      "slug": "ichi-the-witch-raw-99",
+      "country": "JP",
+      "pages": [],
+      "createdAt": "2026-09-19T13:17:00.000Z",
+      "updatedAt": "2026-09-19T13:17:00.000Z"
+    },
+    {
+      "id": "manual-1789805881799-223-akane-banashi",
+      "mangaId": "akane-banashi",
+      "number": 223,
+      "title": "あかね噺 raw ( Akane-banashi raw ) 第223話",
+      "slug": "akane-banashi-raw-223",
+      "country": "JP",
+      "pages": [],
+      "createdAt": "2026-09-19T13:17:00.000Z",
+      "updatedAt": "2026-09-19T13:17:00.000Z"
+    },
+    {
+      "id": "manual-1789805881799-23-roku-house-of-oddities",
+      "mangaId": "roku-house-of-oddities",
+      "number": 23,
+      "title": "ロクのおかしな家 raw ( Roku's House of Oddities raw ) 第23話",
+      "slug": "roku-house-of-oddities-raw-23",
+      "country": "JP",
+      "pages": [],
+      "createdAt": "2026-09-19T13:17:00.000Z",
+      "updatedAt": "2026-09-19T13:17:00.000Z"
+    },
+    {
+      "id": "manual-1789805881799-3-gray-keith-no-makai-goyakuroku",
+      "mangaId": "gray-keith-no-makai-goyakuroku",
+      "number": 3,
+      "title": "グレイキースの魔界語訳録 raw ( Gray Keith no Makai Goyakuroku raw ) 第3話",
+      "slug": "gray-keith-no-makai-goyakuroku-raw-3",
+      "country": "JP",
+      "pages": [],
+      "createdAt": "2026-09-19T13:17:00.000Z",
+      "updatedAt": "2026-09-19T13:17:00.000Z"
     }
   ]
 }
