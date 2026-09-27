@@ -334,6 +334,17 @@
       ],
       "createdAt": "2026-09-22T13:06:08.364Z",
       "updatedAt": "2026-09-22T14:13:27.654Z"
+    },
+    {
+      "id": "manual-1790526318855",
+      "mangaId": "one-piece",
+      "number": 1194,
+      "title": "ワンピース raw ( One Piece raw ) 第1194話 | JP",
+      "slug": "one-piece-raw-jp-1194",
+      "country": "JP",
+      "pages": [],
+      "createdAt": "2026-09-27T16:25:17.077Z",
+      "updatedAt": "2026-09-27T16:25:17.077Z"
     }
   ]
 }
