@@ -456,7 +456,7 @@
       "updatedAt": "2026-09-27T17:57:58.695Z"
     },
     {
-      "id": "manual-1790563120711",
+      "id": "manual-1790594160000-363",
       "mangaId": "blue-lock",
       "number": 363,
       "title": "ブルーロック raw ( Blue Lock raw ) 第363話",
@@ -480,11 +480,11 @@
         "/chapter-images/blue-lock/chapter-blue-lock-raw-363/0015-15.jpg",
         "/chapter-images/blue-lock/chapter-blue-lock-raw-363/0016-16.jpg"
       ],
-      "createdAt": "2026-09-28T02:38:39.465Z",
-      "updatedAt": "2026-09-28T08:35:09.725Z"
+      "createdAt": "2026-09-28T08:35:00.000Z",
+      "updatedAt": "2026-09-28T08:35:00.000Z"
     },
     {
-      "id": "manual-1790583768192",
+      "id": "manual-1790594100000-255",
       "mangaId": "mokushiroku-no-yonkishi",
       "number": 255,
       "title": "黙示録の四騎士 Raw ( THE FOUR KNIGHTS OF THE APOCALYPSE raw ) 第255話",
@@ -512,8 +512,8 @@
         "/chapter-images/mokushiroku-no-yonkishi/chapter-mokushiroku-no-yonkishi-raw-255/0019-19.jpg",
         "/chapter-images/mokushiroku-no-yonkishi/chapter-mokushiroku-no-yonkishi-raw-255/0020-20.jpg"
       ],
-      "createdAt": "2026-09-28T08:22:46.996Z",
-      "updatedAt": "2026-09-28T08:32:35.685Z"
+      "createdAt": "2026-09-28T08:35:00.000Z",
+      "updatedAt": "2026-09-28T08:35:00.000Z"
     }
   ]
 }
