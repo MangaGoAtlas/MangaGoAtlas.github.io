@@ -586,9 +586,11 @@
       "slug": "kingdo-raw-eng-890",
       "country": "JP",
       "language": "ENG",
-      "pages": [],
+      "pages": [
+        "/chapter-images/kingdo-raw/chapter-kingdo-raw-eng-890/0001-_877___2026_6_1___________15_.jpg"
+      ],
       "createdAt": "2026-10-03T03:30:33.224Z",
-      "updatedAt": "2026-10-03T03:30:33.224Z"
+      "updatedAt": "2026-10-03T03:48:35.411Z"
     },
     {
       "id": "manual-1790998233228-blue-lock-raw-jap-363",
