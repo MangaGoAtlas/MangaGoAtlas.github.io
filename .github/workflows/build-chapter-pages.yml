@@ -8,8 +8,6 @@ on:
       - 'latest-chapters.html'
       - 'scripts/build-chapter-pages.js'
       - '.github/workflows/build-chapter-pages.yml'
-    paths-ignore:
-      - 'chapters/**'
   workflow_dispatch:
 
 permissions:
