@@ -638,9 +638,11 @@
       "slug": "one-piece-raw-eng-1195",
       "country": "JP",
       "language": "ENG",
-      "pages": [],
+      "pages": [
+        "/chapter-images/one-piece/chapter-one-piece-raw-eng-1195/0001-_877___2026_6_1___________14_.jpg"
+      ],
       "createdAt": "2026-10-03T03:30:33.224Z",
-      "updatedAt": "2026-10-03T03:30:33.224Z"
+      "updatedAt": "2026-10-03T04:01:40.184Z"
     }
   ]
 }
