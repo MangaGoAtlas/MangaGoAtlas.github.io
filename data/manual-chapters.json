@@ -602,9 +602,11 @@
       "slug": "blue-lock-raw-jap-364",
       "country": "JP",
       "language": "JAP",
-      "pages": [],
+      "pages": [
+        "/chapter-images/blue-lock/chapter-blue-lock-raw-jap-364/0001-_877___2026_6_1___________13_.jpg"
+      ],
       "createdAt": "2026-10-03T03:30:33.224Z",
-      "updatedAt": "2026-10-03T04:03:48.829Z"
+      "updatedAt": "2026-10-03T04:07:03.290Z"
     },
     {
       "id": "manual-1790998233228-blue-lock-raw-eng-363",
