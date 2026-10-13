@@ -24,7 +24,7 @@ fs.rmSync(path.join(root,'chapters'),{recursive:true,force:true});
 for(const c of chapters){
   const slug=String(c.slug).trim();
   const title=String(c.title||('Chapter '+(c.number??''))).trim();
-  const canonical='https://mangogoatlas.github.io/chapters/'+encodeURIComponent(slug)+'/';
+  const canonical='https://mangogoatlas.github.io/chapter.html?slug='+encodeURIComponent(slug);
   const imgs=(Array.isArray(c.pages)?c.pages:[]).map(p=>typeof p==='string'?p:(p?.url||p?.path||p?.src||'')).filter(Boolean);
   const body=imgs.length
     ? imgs.map((u,i)=>'<img class="page" src="'+esc(imageUrl(u))+'" alt="'+esc(title)+'" loading="'+(i<2?'eager':'lazy')+'" decoding="async">').join('')
@@ -48,14 +48,14 @@ const today=new Date().toISOString().slice(0,10);
 const urls=fixed.map(u=>'<url><loc>'+u+'</loc></url>');
 for(const c of chapters){
   const slug=String(c.slug).trim();
-  urls.push('<url><loc>https://mangogoatlas.github.io/chapters/'+encodeURIComponent(slug)+'/</loc><lastmod>'+today+'</lastmod></url>');
+  urls.push('<url><loc>https://mangogoatlas.github.io/chapter.html?slug='+encodeURIComponent(slug)+'</loc><lastmod>'+today+'</lastmod></url>');
 }
 fs.writeFileSync(path.join(root,'sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  '+urls.join('\n  ')+'\n</urlset>\n');
 
 const latestPath=path.join(root,'latest-chapters.html');
 if(fs.existsSync(latestPath)){
   let html=fs.readFileSync(latestPath,'utf8');
-  html=html.replace(/\/chapter\.html\?slug=([^"'&<>]+)/g,(m,s)=>'/chapters/'+s+'/');
+  html=html.replace(/\/chapters\/([^/"'<>]+)\/?/g,(_,s)=>'/chapter.html?slug='+encodeURIComponent(s));
   fs.writeFileSync(latestPath,html);
 }
 console.log('Generated '+chapters.length+' static chapter pages and rebuilt sitemap.');
