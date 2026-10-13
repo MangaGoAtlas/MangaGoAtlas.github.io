@@ -895,6 +895,90 @@
       ],
       "createdAt": "2026-10-08T15:10:25.949Z",
       "updatedAt": "2026-10-08T15:15:26.099Z"
+    },
+    {
+      "id": "manual-one-piece-raw-jp-1196",
+      "mangaId": "one-piece",
+      "number": 1196,
+      "title": "ワンピース raw - One Piece raw 第1196話 | JAP",
+      "slug": "one-piece-raw-jp-1196",
+      "country": "JP",
+      "language": "JAP",
+      "pages": [],
+      "createdAt": "2026-10-13T01:33:57.176Z",
+      "updatedAt": "2026-10-13T01:33:57.181Z"
+    },
+    {
+      "id": "manual-one-piece-raw-eng-1196",
+      "mangaId": "one-piece",
+      "number": 1196,
+      "title": "ワンピース raw - One Piece raw 第1196話 | ENG",
+      "slug": "one-piece-raw-eng-1196",
+      "country": "JP",
+      "language": "ENG",
+      "pages": [],
+      "createdAt": "2026-10-13T01:33:57.181Z",
+      "updatedAt": "2026-10-13T01:33:57.181Z"
+    },
+    {
+      "id": "manual-kingdom-raw-jap-891",
+      "mangaId": "kingdo-raw",
+      "number": 891,
+      "title": "キングダム raw - Kingdom Raw 第891話 | JAP",
+      "slug": "kingdom-raw-jap-891",
+      "country": "JP",
+      "language": "JAP",
+      "pages": [],
+      "createdAt": "2026-10-13T01:33:57.181Z",
+      "updatedAt": "2026-10-13T01:33:57.181Z"
+    },
+    {
+      "id": "manual-kingdom-raw-eng-891",
+      "mangaId": "kingdo-raw",
+      "number": 891,
+      "title": "キングダム raw - Kingdom Raw 第891話 | ENG",
+      "slug": "kingdom-raw-eng-891",
+      "country": "JP",
+      "language": "ENG",
+      "pages": [],
+      "createdAt": "2026-10-13T01:33:57.181Z",
+      "updatedAt": "2026-10-13T01:33:57.181Z"
+    },
+    {
+      "id": "manual-blue-lock-raw-eng-364-2",
+      "mangaId": "blue-lock",
+      "number": "364.2",
+      "title": "ブルーロック raw - Blue Lock raw 第364.2話 | ENG",
+      "slug": "blue-lock-raw-eng-364-2",
+      "country": "JP",
+      "language": "ENG",
+      "pages": [],
+      "createdAt": "2026-10-13T01:33:57.181Z",
+      "updatedAt": "2026-10-13T01:33:57.181Z"
+    },
+    {
+      "id": "manual-blue-lock-raw-jap-364-2",
+      "mangaId": "blue-lock",
+      "number": "364.2",
+      "title": "ブルーロック raw - Blue Lock raw 第364.2話 | JAP",
+      "slug": "blue-lock-raw-jap-364-2",
+      "country": "JP",
+      "language": "JAP",
+      "pages": [],
+      "createdAt": "2026-10-13T01:33:57.181Z",
+      "updatedAt": "2026-10-13T01:33:57.181Z"
+    },
+    {
+      "id": "manual-blue-lock-raw-eng-365",
+      "mangaId": "blue-lock",
+      "number": 365,
+      "title": "ブルーロック raw - Blue Lock raw 第365話 | ENG",
+      "slug": "blue-lock-raw-eng-365",
+      "country": "JP",
+      "language": "ENG",
+      "pages": [],
+      "createdAt": "2026-10-13T01:33:57.181Z",
+      "updatedAt": "2026-10-13T01:33:57.181Z"
     }
   ]
 }
