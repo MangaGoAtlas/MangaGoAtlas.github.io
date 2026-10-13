@@ -968,9 +968,22 @@
       "slug": "blue-lock-raw-jap-364-2",
       "country": "JP",
       "language": "JAP",
-      "pages": [],
+      "pages": [
+        "/chapter-images/blue-lock/chapter-blue-lock-raw-jap-364-2/0001-1.jpg",
+        "/chapter-images/blue-lock/chapter-blue-lock-raw-jap-364-2/0002-2.jpg",
+        "/chapter-images/blue-lock/chapter-blue-lock-raw-jap-364-2/0003-3.jpg",
+        "/chapter-images/blue-lock/chapter-blue-lock-raw-jap-364-2/0004-4.jpg",
+        "/chapter-images/blue-lock/chapter-blue-lock-raw-jap-364-2/0005-5.jpg",
+        "/chapter-images/blue-lock/chapter-blue-lock-raw-jap-364-2/0006-6.jpg",
+        "/chapter-images/blue-lock/chapter-blue-lock-raw-jap-364-2/0007-7.jpg",
+        "/chapter-images/blue-lock/chapter-blue-lock-raw-jap-364-2/0008-8.jpg",
+        "/chapter-images/blue-lock/chapter-blue-lock-raw-jap-364-2/0009-9.jpg",
+        "/chapter-images/blue-lock/chapter-blue-lock-raw-jap-364-2/0010-10.jpg",
+        "/chapter-images/blue-lock/chapter-blue-lock-raw-jap-364-2/0011-11.jpg",
+        "/chapter-images/blue-lock/chapter-blue-lock-raw-jap-364-2/0012-12.jpg"
+      ],
       "createdAt": "2026-10-13T01:33:57.181Z",
-      "updatedAt": "2026-10-13T01:33:57.181Z"
+      "updatedAt": "2026-10-13T01:38:38.247Z"
     },
     {
       "id": "manual-blue-lock-raw-eng-365",
