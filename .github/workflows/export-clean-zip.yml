@@ -1,0 +1,46 @@
+name: Export MangaGoAtlas without chapter content
+
+on:
+  push:
+    branches:
+      - chatgpt-clean-zip-20261015
+    paths:
+      - '.github/workflows/export-clean-zip.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build clean site ZIP
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/MangaGoAtlas
+          rsync -a ./ /tmp/MangaGoAtlas/ \
+            --exclude='.git/' \
+            --exclude='chapter-images/' \
+            --exclude='chapters/' \
+            --exclude='Mangareader-final.zip' \
+            --exclude='.github/workflows/export-clean-zip.yml' \
+            --exclude='data/manual-chapters.json' \
+            --exclude='data/chapter-dates.json' \
+            --exclude='data/extra-chapters.json' \
+            --exclude='data/upcoming-chapters.json'
+          cd /tmp
+          zip -qr MangaGoAtlas-Site-No-Chapters.zip MangaGoAtlas
+          unzip -l MangaGoAtlas-Site-No-Chapters.zip | tail -n 3
+
+      - name: Upload ZIP artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: MangaGoAtlas-Site-No-Chapters
+          path: /tmp/MangaGoAtlas-Site-No-Chapters.zip
+          if-no-files-found: error
+          retention-days: 3
