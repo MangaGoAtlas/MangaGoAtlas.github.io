@@ -1229,6 +1229,17 @@
       ],
       "createdAt": "2026-10-17T05:06:51.165Z",
       "updatedAt": "2026-10-17T05:10:43.082Z"
+    },
+    {
+      "id": "manual-1792826946255",
+      "mangaId": "one-piece",
+      "number": 1197,
+      "title": "ワンピース raw - One Piece raw 第1197話 | JAP",
+      "slug": "one-piece-raw-jap-1197",
+      "country": "JP",
+      "pages": [],
+      "createdAt": "2026-10-24T07:29:04.926Z",
+      "updatedAt": "2026-10-24T07:29:04.926Z"
     }
   ]
 }
